@@ -1,0 +1,64 @@
+.root {
+    font-family: Arial, sans-serif;
+    -fx-alignment: center;
+    -fx-background-color: linear-gradient(to bottom right, #1a1a1a, #4b0082);
+}
+
+.title {
+    -fx-font-size: 36px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 255, 255, 0.8), 10, 0.5, 0, 0);
+}
+
+.button {
+    -fx-background-color: #8A2BE2;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(138, 43, 226, 0.6), 10, 0.3, 0, 0);
+    -fx-pref-width: 180px;
+    -fx-pref-height: 50px;
+}
+
+.button:hover {
+    -fx-background-color: #7A1EBB;
+    -fx-effect: dropshadow(three-pass-box, rgba(138, 43, 226, 1), 15, 0.5, 0, 0);
+}
+
+.label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #cccccc;
+}
+
+.label-result {
+    -fx-font-size: 22px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 255, 255, 0.8), 10, 0.5, 0, 0);
+}
+
+.text-field {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #777777;
+    -fx-background-radius: 10px;
+    -fx-border-color: #8A2BE2;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px;
+    -fx-pref-width: 300px;
+}
+
+.hbox {
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+}
+
+.vbox {
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+    -fx-padding: 20px;
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-background-radius: 10px;
+}
